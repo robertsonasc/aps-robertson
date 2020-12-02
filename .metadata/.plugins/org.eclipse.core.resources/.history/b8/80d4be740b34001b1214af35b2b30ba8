@@ -1,7 +1,0 @@
-package atividade1;
-import java.util.*;
-
-public class RevendaComArray {
-	Produto produtos[] = new Produto[50];
-	
-}

@@ -1,7 +1,0 @@
-package atividade1;
-import java.util.*;
-
-public class RevendaComArray {
-	Array<Produto> produtos = new Array<Produto>();
-	
-}

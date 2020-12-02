@@ -1,6 +1,0 @@
-package atividade1;
-
-public class RevendaComArray {
-	private Produto produtos[] = new Produto[50];
-	
-}
