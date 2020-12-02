@@ -1,0 +1,44 @@
+package atividade1;
+
+public class Produto {
+	private int codigo;
+	private String descricao;
+	private double valor_compra;
+	private double custo;
+	private double margem_lucro;
+	private int qtd_estoque;
+	
+	void compra(int quant){
+		qtd_estoque = qtd_estoque + quant;
+	}
+	void venda(int quant){
+		qtd_estoque = qtd_estoque - quant;
+	}
+	double calculaPrecoVenda(){
+		return valor_compra + custo + margem_lucro*(valor_compra + custo);
+	}
+	void setValor_compra(double n){
+		valor_compra = n;
+	}
+	double getValor_compra() {
+		return valor_compra;
+	}
+	void setCusto(double n) {
+		custo = n;
+	}
+	double getCusto() {
+		return custo;
+	}
+	void setMargem_lucro(double n) {
+		margem_lucro = n;
+	}
+	double getMargem_lucro() {
+		return margem_lucro;
+	}
+	
+	• crie um construtor para inicializar o valor dos atributos: código e descrição
+	• crie um construtor para inicializar o valor dos atributos: código, descrição, valor de compra, custo e
+	margem de lucro
+	• crie um construtor para inicializar o valor dos atributos: código, descrição, valor de compra, custo,
+	margem de lucro e quantidade em estoque
+}

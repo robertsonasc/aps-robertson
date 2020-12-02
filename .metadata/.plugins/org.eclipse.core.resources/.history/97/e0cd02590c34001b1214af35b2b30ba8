@@ -1,0 +1,13 @@
+package atividade1;
+
+public class RevendaComArray {
+	private Produto produtos[];
+	private int indice = 0;
+	
+	RevendaComArray(int qtd){
+		produtos = new Produto[qtd];
+	}
+	void inserirProduto(Produto p) {
+		
+	}
+}

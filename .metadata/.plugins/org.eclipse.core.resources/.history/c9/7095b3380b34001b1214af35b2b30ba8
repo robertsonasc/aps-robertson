@@ -1,0 +1,6 @@
+package atividade1;
+import java.util.*;
+
+public class RevendaComArray {
+	ArrayList<Produto> produtos = new ArrayList<Produto>();
+}

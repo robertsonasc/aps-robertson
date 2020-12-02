@@ -1,0 +1,54 @@
+package atividade1;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		int opcao = 0;
+		while(opcao != 12) {
+			String menu = "Informe a opção correspondente a ação que deseja realizar:\n";
+			menu += "1 | Criar produto.\n";
+			menu += "2 | Realizar compra de produtos já cadastrados.\n";
+			menu += "3 | Vender produtos.\n";
+			menu += "4 | Consultar preço de determinado produto.\n";
+			menu += "5 | Listar preços de todos os produtos.\n";
+			menu += "6 | Consultar valor de compra de um produto.\n";
+			menu += "7 | Alterar valor de compra de um produto.\n";
+			menu += "8 | Consultar custo de um produto.\n";
+			menu += "9 | Alterar custo de um produto.\n";
+			menu += "10 | Consultar margem de lucro de um produto.\n";
+			menu += "11 | Alterar margem de lucro de um produto.\n";
+			menu += "12 | Fechar o programa.";
+			System.out.println(menu);
+			Scanner ler = new Scanner(System.in);
+			opcao = ler.nextInt();
+			
+			RevendaComArray principal = new RevendaComArray(50);
+			
+			
+			switch(opcao) {
+				case 1:{
+					
+					break;
+				}
+			}
+		}
+		ler.close();
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

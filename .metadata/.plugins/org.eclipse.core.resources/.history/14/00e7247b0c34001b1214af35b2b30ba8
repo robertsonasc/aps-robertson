@@ -1,0 +1,15 @@
+package atividade1;
+
+public class RevendaComArray {
+	private Produto produtos[];
+	private int indice = 0;
+	private int qtd;
+	
+	RevendaComArray(int qtdade){
+		produtos = new Produto[qtdade];
+		qtd = qtdade;
+	}
+	void inserirProduto(Produto p) {
+		if(indice+1 = )
+	}
+}
